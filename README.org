@@ -8,14 +8,17 @@ still work, even though typing the =x= and =w= keys will insert =č=
 and =š=, respectively.
 
 So far only tested with a Norwegian physical keyboard and Norwegian
-GNU/Linux keyboard layout. If anyone has suggestions for mappings that
-work on other keyboard layouts, please [[https://github.com/unhammer/northern-saami-eim/issues][open an issue]].
+GNU/Linux keyboard layout.
+
+If you have a suggestion for mappings that work on other keyboard
+layouts, please [[https://github.com/unhammer/northern-saami-eim/issues][open an issue]].
 
 * Usage
 
 Put the following in your =~/.emacs.d/init.el=:
 
 #+BEGIN_SRC emacs-lisp
+  (load "/path/to/northern-saami.el")
   (register-input-method
    "northern-saami" "Northern Saami / davvisámegiella" 'quail-use-package
    "DS" "Northern Saami keyboard layout for Norwegian keyboards"
