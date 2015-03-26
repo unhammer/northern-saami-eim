@@ -1,0 +1,29 @@
+* Northern Saami Emacs input method
+
+This is an Emacs input method for Northern Saami, mimicking the
+regular GNU/Linux keyboard layout for Northern Saami. The reason to
+use an emacs-internal input method instead of your operating system's
+layout switcher, is that shortcuts such as =C-x C-x= and =M-w= will
+still work, even though typing the =x= and =w= keys will insert =č=
+and =š=, respectively.
+
+So far only tested with a Norwegian physical keyboard and Norwegian
+GNU/Linux keyboard layout. If anyone has suggestions for mappings that
+work on other keyboard layouts, please [[https://github.com/unhammer/northern-saami-eim/issues][open an issue]].
+
+* Usage
+
+Put the following in your =~/.emacs.d/init.el=:
+
+#+BEGIN_SRC emacs-lisp
+  (register-input-method
+   "northern-saami" "Northern Saami / davvisámegiella" 'quail-use-package
+   "DS" "Northern Saami keyboard layout for Norwegian keyboards"
+   "quail/northern-saami")
+#+END_SRC
+
+and do =C-\=, selecting =northern-saami=. The next time you do =C-\=,
+it'll just toggle the input method on and off. If you want to select
+another input method later (or if you didn't get a chance to select
+one in the first place), do =C-u C-\=.
+
