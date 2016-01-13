@@ -138,6 +138,7 @@ alt+gr (shadowing the rarely-if-ever-used ǯ/Ǯ).
  ("½" ?<)
  ("¾" ?>))
 
+(provide 'northern-saami-eim)
 
 ;; Local Variables:
 ;; coding: utf-8
