@@ -18,7 +18,7 @@ layouts, please [[https://github.com/unhammer/northern-saami-eim/issues][open an
 Put the following in your =~/.emacs.d/init.el=:
 
 #+BEGIN_SRC emacs-lisp
-  (load "/path/to/northern-saami.el")
+  (load "/path/to/northern-saami-eim.el")
   (register-input-method
    "northern-saami" "Northern Saami / davvisámegiella" 'quail-use-package
    "DS" "Northern Saami keyboard layout for Norwegian keyboards"
