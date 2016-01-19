@@ -49,8 +49,10 @@
  "Northern Saami keyboard layout for Norwegian keyboards.
 
 The ŧ is on alt-gr + t (as with regular GNU/Linux layouts), and
-the ŋ is on ¨/^/~. If you use deadkeys (typical for Norwegian
-layouts), you can get ŋ by pressing the ¨/^/~ key twice.
+the ŋ is on ¨/^/~. The typical Norwegian layout uses deadkeys, so
+you'll have to press the ¨/^/~ key twice to get ŋ; but you can
+still use that key to compose letters like ï (used in South
+Saami).
 
 Shift + alt-gr + t gives Ŧ, while shift and a double press of the
 ¨/^/~ key gives Ŋ.
