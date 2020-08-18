@@ -13,6 +13,14 @@ GNU/Linux keyboard layout.
 If you have a suggestion for mappings that work on other keyboard
 layouts, please [[https://github.com/unhammer/northern-saami-eim/issues][open an issue]].
 
+Note: /Emacs 27.1 now includes a (different) Northern Saami input
+method/. The layout in this repo (=northern-saami=) follows closely
+what you get by simply switching your regular keyboard layout to
+Saami. The layout included with Emacs (=northern-sami-prefix=) uses
+prefixes for the "special" letters (e.g. =/n= gives you =ŋ=) and is
+probably better if you normally use a non-Norwegian keyboard layout,
+or want to still be able to type =w= :-)
+
 * Usage
 
 Put the following in your =~/.emacs.d/init.el=:
@@ -29,4 +37,3 @@ and do =C-\=, selecting =northern-saami=. The next time you do =C-\=,
 it'll just toggle the input method on and off. If you want to select
 another input method later (or if you didn't get a chance to select
 one in the first place), do =C-u C-\=.
-
