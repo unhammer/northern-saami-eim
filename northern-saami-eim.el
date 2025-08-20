@@ -1,4 +1,4 @@
-;;; northern-saami.el --- Northern Saami input method for Emacs
+;;; northern-saami.el --- Northern Saami input method for Emacs  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2015 Kevin Brubeck Unhammer
 
